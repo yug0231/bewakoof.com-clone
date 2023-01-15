@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#footer{
+    background-color: #181818;
+    padding: 3%;
+}
+h2{
+    color: #CCCE35;
+    font-size: 80%;
+    margin-bottom: 5%;
+}
+p{
+    color: white;
+    font-size: 80%;
+}
+#footerTop{
+    display: grid;
+    width: 80%;
+    margin: auto;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10%
+}
+.footerTopColumn{
+    text-align: left;
+}
+.socialmediaHide{
+    display: flex;
+    align-items:center;
+}
+.socialIcon{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+.socialMediaRow{
+    padding-top: 5px;
+}
+.subscribeBox{
+    display: flex;
+}
+.subscribeBtn{
+    background-color: #CCCE35;
+    color: black;
+    stroke:none;
+    border: none;
+    outline: none;
+    padding: 5px;
+}
+.subscribeBtn:hover{
+    background-color: #e0e410;
+ 
+}
+.subscribeEmailBox{
+    background-color: none;
+}
+.subscribeBox input[type=text] {
+    background-color: #181818;
+    color: white;
+    border-bottom: 2px solid #CCCE35;
+    stroke: none;
+ }
+ .subscribeBox input[type=text]:focus {
+    background-color: #181818;
+    color: white;
+    border-bottom: 2px solid #CCCE35;
+    stroke: none;
+    outline: none;
+ }
