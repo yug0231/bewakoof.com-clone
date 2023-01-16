@@ -3,9 +3,14 @@
     margin: 0;
     box-sizing: border-box;
 }
+a{
+    text-decoration: none;
+}
 #footer{
     background-color: #181818;
     padding: 3%;
+    padding-bottom: 10%;
+    height: 100%;
 }
 h2{
     color: #CCCE35;
@@ -21,7 +26,7 @@ p{
     width: 80%;
     margin: auto;
     grid-template-columns: repeat(4,1fr);
-    gap: 10%
+    gap: 5%
 }
 .footerTopColumn{
     text-align: left;
@@ -68,4 +73,22 @@ p{
     border-bottom: 2px solid #CCCE35;
     stroke: none;
     outline: none;
+ }
+ .appDownBtn{
+    width: 50%;
+    margin-right: 2%;
+ }
+ #footerBottom{
+    padding-top: 10%;
+    width: 80%;
+    margin: auto;
+    text-align: left;
+ }
+ #footerBottom h2{
+    padding-bottom: 0%;
+    margin: 0;
+ }
+ #footerBottom p{
+    padding: 0;
+    margin: 0;
  }
