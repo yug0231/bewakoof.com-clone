@@ -8,11 +8,11 @@
     padding: 0;
     margin-bottom: 0;
 }
-#stoopidSection > h1 {
+#gridSection > h1 {
     color: #181818;
     font-size: 150%;
 }
-.stupidSectionGridBoxes{
+.gridSectionGridBoxes{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 0.5%;
